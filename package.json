@@ -1,0 +1,13 @@
+{
+  "name": "cs140-flow-calendar",
+  "private": true,
+  "type": "module",
+  "description": "Five small functions that choose a path — \"1 day\" or \"29 days\", leap years, month names, days in a month, whether a date exists — a teammate's bug to fix, and the calendar that uses them.",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/calendar.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
