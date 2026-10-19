@@ -126,18 +126,6 @@ Stuck? Put `console.log(something)` inside a function, and it prints the value
 of `something` each time the tests or the calendar run that line. The tests do
 not look at what you print, so print as much as you like.
 
-## Using an AI assistant
-
-`AGENTS.md` in this repository tells AI coding assistants how this course wants
-them to help: as a tutor who explains errors, asks questions and gives hints,
-not by writing your answers. Most assistants read it automatically. It is in
-the open, so read it too. It says what good AI help looks like.
-
-In VS Code, in a Codespace or on your own computer, AI code suggestions are
-switched off for this homework (`.vscode/settings.json`), so the code you hand
-in is your own. Chat is on, and it follows `AGENTS.md`: ask it about an error,
-a failing test or an idea.
-
 ## The parts
 
 The comment above each function says what the function takes and what it
@@ -235,3 +223,15 @@ explains what is going on. Leave the rest of the function as it is.
 - `npm test` passes every test.
 - `npm start` prints the calendar above, with no `undefined` and no `NaN` in
   it.
+
+## Using an AI assistant
+
+`AGENTS.md` in this repository tells AI coding assistants how this course wants
+them to help: as a tutor who explains errors, asks questions and gives hints,
+not by writing your answers. Most assistants read it automatically. It is in
+the open, so read it too. It says what good AI help looks like.
+
+In VS Code, in a Codespace or on your own computer, AI code suggestions are
+switched off for this homework (`.vscode/settings.json`), so the code you hand
+in is your own. Chat is on, and it follows `AGENTS.md`: ask it about an error,
+a failing test or an idea.
